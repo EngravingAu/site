@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us & Request a Quote - Your Company Name</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">YourLogo</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services-engraving.html">Services</a></li>
+                    <li><a href="portfolio.html">Our Work</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="btn btn-primary active">Request a Quote</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section section-light">
+            <div class="container">
+                <h1 class="section-title">Request a Quote</h1>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Contact Details</h3>
+                        <p><strong>Phone:</strong><br>(02) 1234 5678</p>
+                        <p><strong>Email:</strong><br>quotes@yourcompany.com.au</p>
+                        <p><strong>Address:</strong><br>123 Industrial Ave<br>Sydney NSW 2000</p>
+                        <p><strong>Business Hours:</strong><br>Mon - Fri: 8:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Project Details</h3>
+                        <p>Please provide as much detail as possible for an accurate quote. You can also attach drawings or specifications via email.</p>
+                        <form action="https://formspree.io/f/YOUR_UNIQUE_FORM_ID" method="POST">
+                            <label for="full-name">Full Name:</label>
+                            <input type="text" id="full-name" name="name" required>
+                      
+                            <label for="company">Company Name:</label>
+                            <input type="text" id="company" name="company">
+                      
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="_replyto" required>
+                      
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone">
+                      
+                            <label for="message">Project Details / Message:</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                            
+                            <button type="submit" class="btn btn-primary">Send Quote Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Your Company Name. All Rights Reserved. | <a href="privacy.html" style="color: #fff;">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
